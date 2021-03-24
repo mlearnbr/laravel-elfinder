@@ -12,13 +12,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mlearnbr/elfinder-builds"
+            "url": "git@github.com:mlearnbr/elfinder-builds.git"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.0.x|5.1.x",
-        "barryvdh/elfinder-builds": "2.1.x",
+        "barryvdh/elfinder-builds": "dev-master",
         "barryvdh/elfinder-flysystem-driver": "0.1.x@dev"
     },
     "autoload": {
